@@ -9,4 +9,13 @@ function unique(items) {
     return newArr;
 }
 // Time complexity: O(n^2)
+function uniques(items) {
+    var unique = new Set();
+    for (var i = 0; i < items.length; i++) {
+        unique.add(items[i]);
+    }
+    var newArr = Array.from(unique);
+    return newArr;
+}
 console.log(unique(['any', 'any', 'boy', 'girl', 'boy', 'girl']));
+console.log(uniques(['any', 'any', 'boy', 'girl', 'boy', 'girl', 'fly']));
