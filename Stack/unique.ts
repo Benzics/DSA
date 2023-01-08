@@ -28,6 +28,8 @@ function uniques(items: string[]) : string[]
 
     return newArr;
 }
+// Time complexity: O(n)
+
 const startUnique = new Date().getTime();
 console.log(unique(['any', 'any', 'boy', 'girl', 'boy', 'girl']));
 const endUnique = new Date().getTime();

@@ -17,6 +17,7 @@ function uniques(items) {
     var newArr = Array.from(unique);
     return newArr;
 }
+// Time complexity: O(n)
 var startUnique = new Date().getTime();
 console.log(unique(['any', 'any', 'boy', 'girl', 'boy', 'girl']));
 var endUnique = new Date().getTime();
