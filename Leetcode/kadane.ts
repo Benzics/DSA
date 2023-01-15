@@ -18,3 +18,6 @@ function max_sum(items: number[]) : number
 }
 
 console.log(max_sum([-3, 1, -8, 12, 0, -3, 5, -9, 4]))
+// 14
+console.log(max_sum([-2, -3, 4, -1, -2, 1, 5, -3]))
+// 7
