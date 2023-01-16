@@ -3,7 +3,7 @@ function longestCon(arr){
 
     if(arr.length < 2) return arr.length
 
-    for(let i = 0; i < arr.length - 1; i++){
+    for(let i = 0; i < arr.length; i++){
         while(arr[i] === arr[i+1]) arr.splice(i + 1, 1);
 
         if(arr[i] + 1 !== arr[i+1]) {
